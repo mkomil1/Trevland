@@ -1,38 +1,426 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
+  box-sizing: border-box !important;
+ 
+}
+html{
+  overflow-x: hidden;
+}
+.header{
+  background: url(./Components/Img/Rectangle\ 31\ \(1\).jpg);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 177px;
+}
+.header_top{
+  padding-top: 20px;
+  
+}
+@media (min-width: 992px){
+  .navbar-expand-lg .navbar-collapse{
+    flex-grow: 0.5 !important;
+  }
+}
+
+
+.navbar .navbar-brand{
+  font-weight: 600;
+  font-size: 24px;
+  color: #FFFFFF !important;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+  font-weight: 500;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-right: 10%;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #FFFFFF !important;
+
+}
+.navbar-collapse .btn1{
+  width: 130px;
+  height: 46px;
+  background: #C9453B;
+  border: transparent;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: white;
+  
+}
+.header_top .pad{
+  padding: 0;
+}
+.header_main{
+  padding-top: 130px;
+
+}
+
+.header_main h1{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 65px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+.header_main p{
+  margin-top: 22px;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header_main button{
+  margin: 18px 0  0 13px;
+   font-weight: normal;
+   font-size: 16px;
+   width: 140px;
+   height: 46px;
+   background: #C9453B;
+   color: #FFFFFF;
+   border: transparent;
+   border-radius: 5px;
+   letter-spacing: 0.5px;
+  
+}
+
+.main_top{
+  padding-top: 80px;
+}
+
+.main_top h1{
+  font-weight: 500;
+  font-size: 43px;
+  color: #000000;
+  text-align: center;
+  
+ 
+}
+.main_top p{
+  font-size: 16px;
+  font-weight: 450;
+  text-align: center;
+  color: #000000;
+  margin-top: 12px;
+}
+
+
+.main_top .main_blok{
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin: 30px 0 30px;
+
+}
+
+.main_top .main_blok:hover{
+  box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
+}
+
+.main_top .main_blok  .main_min-blok img{
+  width: 100%;
+  height: 100%;
+}
+.main_top .main_blok h3{
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+.main_top .main_blok p{
+  font-size: 18px;
+  font-weight: 470;
+  color: #000000;
+}
+
+.main_section{
+  margin-bottom: 50px;
+}
+
+.main_section h1{
+  font-weight: 500;
+  font-size: 43px;
+  color: #000000;
+  text-align: center;
+}
+.main_section p{
+  font-size: 18px;
+  font-weight: 450;
+  color: #000000;
+  text-align: center;
+  margin: 10px 0 70px;
+}
+
+.main_section .main_swiper img{
+  width: 100%;
+}
+
+.main_section .main_swiper h4{
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  margin-top: 14px;
+}
+
+.main_section .main_swiper .main_swiper-blok{
+  display: flex;
+  align-items: center;
+}
+.main_section .main_swiper .main_swiper-blok h5{
+  margin-bottom: 0rem !important;
+  margin-left: 8px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+
+}
+.main_section .main_swiper .main_swiper-min-blok{
+  display: flex;
+  margin-left: 30px;
+
+}
+
+.main_section .main_swiper .main_swiper-min-blok p{
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  margin: 0 0 0 10px;
+}
+.main_section .main_swiper p{
+  font-weight: normal;
+  font-size: 16px;
+  text-align: start;
+  margin: 10px 0 10px;
+}
+.main_section .main_swiper strong{
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+}
+
+
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 80px;
+  border-radius: 10px;
+  height: 4px;
+  background-color: #C9453B;
+  
+}
+
+
+/* footer-top */
+.footr_top{
+  padding-top: 20px;
+}
+.footr_top h1{
+  font-weight: 500;
+  font-size: 43px;
+  color: #000000;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footr_top p{
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  margin: 10px 0 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footr_top .footr_blok1 h2{
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  margin: 32px 0 17px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footr_top .footr_blok1 p{
+  font-weight: normal;
+  font-size: 18px;
+  color: #000000;
+  text-align: start;
+  margin: 0 0 13px;
+}
+.footr_top .footr_blok1 a{
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+
+}
+
+.footr_top .footr_blok2 .footr_blok2-min{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 25px;
+
+}
+
+.footr_top .footr_blok2 .footr_blok2-min h3{
+  font-weight: 500;
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 14px;
+}
+.footr_top .footr_blok2 .footr_blok2-min p{
+  font-weight: normal;
+  font-size: 18px;  
+  color: #000000;
+  text-align: start;
+  margin: 0;
+}
+
+
+.footr_top .footr_blok2 .footr_blok2-min a{
+  font-weight: normal;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 14px !important;
+}
+.footr_top .footr_blok2 .footr_blok2-min-blok1 img{
+  width: 100%;
+
+}
+
+.footr_top .footr_blok2 .footr_blok-min-blok2{
+  margin-left: 25px;
+}
+
+/* -----------------footr_main */
+.footr_main{
+  margin-top: 50px;
+  padding: 50px 0 50px;
+  background: rgba(38, 148, 153, 0.04);
+}
+.footr_main .footr_main-blok .footr_main-blok-icon {
+  align-items: center;
+  gap: 23px;
+  margin-top: 8px;
+ 
+  display: flex;
+}
+
+.footr_main .footr_main-blok .footr_main-blok-icon .fa-facebook{
+  color: #3B5999;
+  font-size: 20px;
+}
+.footr_main .footr_main-blok h1{
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 0.8px;
+}
+
+.footr_main .footr_main-blok p{
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0.8px;
+  font-weight: 450;
+  margin-top: 25px;
+  margin-bottom: 3.4px;
+}
+.footr_main .footr_main-blok a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  letter-spacing: 0.6px;
+}
+
+.footr_main .footr_main-blok .footr_main-blok-icon .fa-instagram{
+  font-size: 18px;
   color: white;
+  border-radius: 2px;
+  background: linear-gradient(180deg, rgba(250, 225, 0, 0) 41.26%, rgba(252, 168, 0, 0.305882) 65.21%, rgba(254, 115, 0, 0.627451) 90.26%, rgba(255, 82, 0, 0.866667) 109.08%, #FF4500 119.35%);
+  background: radial-gradient(110.28% 110.28% at 20.5% 87.39%, #FAE100 0%, #FADC04 5.44%, #FBCE0E 11.67%, #FCB720 18.29%, #FE9838 25.14%, #FF7950 30.54%, #FF1C74 49.22%, #6C1CD1 100%);
 }
 
-.App-link {
-  color: #61dafb;
+.footr_main .footr_main-blok .footr_main-blok-icon .fa-twitter{
+  font-size: 18px;
+  color: white;
+  border-radius: 2px;
+  background: linear-gradient(312.9deg, rgba(0, 176, 237, 0) 6.56%, #00A2CE 69.1%);
+  background: linear-gradient(154.95deg, #00C3FF 20.16%, #00B0ED 65.09%);
+  
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footr_main .footr_main-blok .footr_main-blok-icon .fa-google{
+  background: #273B7A;
+  border-radius: 2px;
+  font-size: 18px;
+
+
+}
+
+.footr_main-blok .footr-ul .footr-li .footr-a{
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.footr_main-blok .footr-ul .footr-li .footr-a:hover{
+  color: #C9453B;
+}
+
+.footr_main-blok .footr-ul .footr-li {
+  margin-bottom: 9px;
+}
+
+.footr_main-blok h3{
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 38px;
+}
+.footr_main .footr-input{
+  display: flex;
+  align-items: center;
+
+}
+.footr_main .footr-input input{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  box-shadow: 0px 0px 2px 3px rgba(0, 0, 0, 0.15);
+  outline: none;
+
+}
+
+.footr_main .footr-input button{
+  
+  padding: 10px 34px;
+  font-size: 16px;
+  letter-spacing: 0.6px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background: #C9453B;
+  color: white;
+  margin-left: 30px;
+
+  
+}
+
+.mySwiper{
+  height: 450px;
+}
+
+.navbar-light .navbar-toggler{
+  border-color: white;
+  background: white;
 }
